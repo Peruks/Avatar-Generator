@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import FarcasterInit from "@/components/FarcasterInit";
 
@@ -22,12 +23,21 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <head>
-                <script src="https://cdn.farcaster.xyz/actions.js" defer></script>
-            </head>
             <body className={inter.className}>
                 <FarcasterInit />
                 {children}
+                <Script
+                    src="https://cdn.farcaster.xyz/actions.js"
+                    strategy="afterInteractive"
+                    onLoad={() => {
+                        // @ts-ignore
+                        if (window.sdk && window.sdk.actions) {
+                            // @ts-ignore
+                            window.sdk.actions.ready();
+                            console.log("Farcaster SDK Ready (onLoad)");
+                        }
+                    }}
+                />
             </body>
         </html>
     );
