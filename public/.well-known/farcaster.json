@@ -1,12 +1,20 @@
 {
-    "name": "BaseStyle Lab",
-    "iconUrl": "https://avatar-generator-rose.vercel.app/icon.png",
-    "homeUrl": "https://avatar-generator-rose.vercel.app",
-    "splashImageUrl": "https://avatar-generator-rose.vercel.app/splash.png",
-    "splashBackgroundColor": "#050505",
     "accountAssociation": {
         "header": "eyJmaWQiOjIzNjUwNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEFiMDc4MGI0NGQ1QTEyODRFOWZjZTAwY0Y4YzQxNTFjODRGOWEzNjQifQ",
-        "payload": "eyJkb21haW4iOiJhdmF0YXItZ2VuZXJhdG9yLXJvc2UudmVyY2VsLmFwcCJ9",
-        "signature": "fjikbRJ9rj5zihIuDQeIWfXXMmivbwX7QQ8H4+hTR0huRc4KqMjluJ3qz67+KNnBpTVkCs+VO1L/GVU0y6/DKBs="
+        "payload": "eyJkb21haW4iOiJodHRwczovL2F2YXRhci1nZW5lcmF0b3Itcm9zZS52ZXJjZWwuYXBwLyJ9",
+        "signature": "Nbd5NIUPSh7+nGDPfCbaNSL0nz3+A43Ptd2mD/0OwkRqBEtE9P2fEwdMd5JEnemEl/DK6/lMcOc7n5V+SsRUJhs="
+    },
+    "frame": {
+        "version": "1",
+        "name": "BaseStyle Lab",
+        "iconUrl": "https://avatar-generator-rose.vercel.app/icon.png",
+        "homeUrl": "https://avatar-generator-rose.vercel.app",
+        "imageUrl": "https://avatar-generator-rose.vercel.app/splash.png",
+        "splashImageUrl": "https://avatar-generator-rose.vercel.app/splash.png",
+        "splashBackgroundColor": "#050505",
+        "webhookUrl": "https://avatar-generator-rose.vercel.app/api/webhook",
+        "primaryCategory": "art-creativity",
+        "subtitle": "Convert photos into NFT-style avatars",
+        "description": "BaseStyle Lab converts your photos into collectible NFT-style avatars in Punk, Azuki, Pixel, and Comic styles. Add traits, generate avatar packs, export PNG/SVG/ZIP with metadata — fully client-side and PWA-ready with no login required."
     }
 }
