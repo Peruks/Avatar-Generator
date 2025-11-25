@@ -1,0 +1,16 @@
+{
+    "name": "BaseStyle Lab",
+    "short_name": "BaseStyle",
+    "description": "Avatar Generator Farcaster Mini App",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#050505",
+    "theme_color": "#0ea5a1",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

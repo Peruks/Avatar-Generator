@@ -1,0 +1,5 @@
+{
+    "name": "BaseStyle Lab",
+    "iconUrl": "{DEPLOY_HOST}/icon.png",
+    "homeUrl": "{DEPLOY_HOST}"
+}
