@@ -2,6 +2,8 @@
     "name": "BaseStyle Lab",
     "iconUrl": "https://avatar-generator-rose.vercel.app/icon.png",
     "homeUrl": "https://avatar-generator-rose.vercel.app",
+    "splashImageUrl": "https://avatar-generator-rose.vercel.app/splash.png",
+    "splashBackgroundColor": "#050505",
     "accountAssociation": {
         "header": "eyJmaWQiOjIzNjUwNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEFiMDc4MGI0NGQ1QTEyODRFOWZjZTAwY0Y4YzQxNTFjODRGOWEzNjQifQ",
         "payload": "eyJkb21haW4iOiJhdmF0YXItZ2VuZXJhdG9yLXJvc2UudmVyY2VsLmFwcCJ9",
